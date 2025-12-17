@@ -1,0 +1,33 @@
+# OS
+Thumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+*.code-workspace
+
+# Python
+__pycache__/
+*.pyc
+
+# SQLite databases and other DB files (recommended to ignore)
+*.sqlite
+*.db
+*.sqlite3
+
+# Tools folder (don't commit the sqlite binaries)
+sqlite-tools-win-x64-3510000/
+
+# Logs
+*.log
+
+# Ignore secrets and environment files
+.env
+
+# macOS
+.DS_Store
+
+# If you want to track database files, remove or comment out the sqlite lines above
+# Example to enable tracking with Git LFS instead:
+# git lfs track "*.sqlite"
+# Then commit the generated .gitattributes file
