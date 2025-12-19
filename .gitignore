@@ -9,11 +9,13 @@ Desktop.ini
 # Python
 __pycache__/
 *.pyc
+.ipynb_checkpoints/
 
 # SQLite databases and other DB files (recommended to ignore)
 *.sqlite
 *.db
 *.sqlite3
+*.csv
 
 # Tools folder (don't commit the sqlite binaries)
 sqlite-tools-win-x64-3510000/
